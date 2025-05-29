@@ -28,7 +28,7 @@ banner()
 print("")
 Xd = input("your username :")
 time.sleep(3)
-print("Access Denied. |e: server offline")
+print(Fore.RED ,"Access Denied. |e: server offline")
 time.sleep(2)
 exit()
 
