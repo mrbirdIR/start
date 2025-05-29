@@ -1,0 +1,33 @@
+from colorama import Fore, Style
+import time , pyautogui
+import colorama
+colorama.init()
+time.sleep(1)
+pyautogui.press("f11")
+def banner():
+    print( Fore.GREEN ,"-------------------------------------------------")
+    time.sleep(0.4)
+    print("--------TTTTTTTTT-----OO------A-----------@----@-")
+    time.sleep(0.2)
+    print("-----------TTT--------WW------A---------@---@---@")
+    time.sleep(0.2)
+    print("-----------TTT--------WW-----A--A-------@---@---@")
+    time.sleep(1)
+    print("-----------TTT--------WW----A@@@@A------@---@---@")
+    time.sleep(0.2)
+    print("-----------TTT--------WW---A-----A------@-------@")
+    time.sleep(1.2)
+    print("-----------TTT--------WW--A-------A-----@-------@")
+    time.sleep(0.2)
+    print()
+    time.sleep(1)
+    print(Fore.BLUE ,"Version 0.1 Beta - Surce")
+print("")
+print(Fore.RED,'Ready to use')
+banner()
+print("")
+Xd = input("your username :")
+time.sleep(3)
+print("Access Denied. |e: server offline")
+time.sleep(2)
+
