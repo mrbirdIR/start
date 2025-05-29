@@ -30,4 +30,5 @@ Xd = input("your username :")
 time.sleep(3)
 print("Access Denied. |e: server offline")
 time.sleep(2)
+exit()
 
